@@ -18,12 +18,13 @@ namespace MyGame
         /// </summary>
         /// <param name="poolObject"></param>
         /// <returns></returns>
-        public GameObject Spawn(GameObject go)
+        public GameObject Spawn(GameObject go, Transform parent = null)
         {
             GameObject temp = null;
             for (int i = 0; i < gameObjectPool.Count; i++)
             {
                 temp = gameObjectPool[i];
+                temp.transform.SetParent(parent);
                 temp.SetActive(true);
                 gameObjectPool.RemoveAt(i);
                 return temp;
@@ -40,6 +41,7 @@ namespace MyGame
         public void DeSpawn(GameObject go)
         {
             go.SetActive(false);
+            go.transform.SetParent(null);
             gameObjectPool.Add(go);
             KeepPoolCount();
         }

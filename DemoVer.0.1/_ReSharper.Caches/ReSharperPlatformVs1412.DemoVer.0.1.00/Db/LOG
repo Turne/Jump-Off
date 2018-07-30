@@ -1,34 +1,67 @@
-2018/07/29-23:57:34.727 5c0 Recovering log #78
-2018/07/29-23:57:34.775 5c0 Level-0 table #92: started
-2018/07/29-23:57:34.924 5c0 Level-0 table #92: 2750525 bytes OK
-2018/07/29-23:57:34.986 5c0 Delete type=0 #78
-2018/07/29-23:57:34.987 5c0 Delete type=3 #51
-2018/07/29-23:57:35.597 1df8 Compacting 1@0 + 0@1 files
-2018/07/29-23:57:35.629 1df8 Generated table #94: 24 keys, 32803 bytes
-2018/07/29-23:57:35.629 1df8 Compacted 1@0 + 0@1 files => 32803 bytes
-2018/07/29-23:57:35.642 1df8 Delete type=2 #92
-2018/07/29-23:57:35.642 1df8 compacted to: files[ 0 1 10 0 0 0 0 ]
-2018/07/29-23:57:40.024 1df8 Compacting 1@1 + 10@2 files
-2018/07/29-23:57:40.210 1df8 Generated table #95: 5340 keys, 2156167 bytes
-2018/07/29-23:57:40.401 1df8 Generated table #96: 4950 keys, 2156905 bytes
-2018/07/29-23:57:40.581 1df8 Generated table #97: 4443 keys, 2165755 bytes
-2018/07/29-23:57:40.798 1df8 Generated table #98: 3407 keys, 2159063 bytes
-2018/07/29-23:57:40.984 1df8 Generated table #99: 3591 keys, 2161273 bytes
-2018/07/29-23:57:41.130 1df8 Generated table #100: 3567 keys, 2176488 bytes
-2018/07/29-23:57:41.299 1df8 Generated table #101: 2439 keys, 2182487 bytes
-2018/07/29-23:57:41.441 1df8 Generated table #102: 3384 keys, 2159636 bytes
-2018/07/29-23:57:41.575 1df8 Generated table #103: 2672 keys, 2168458 bytes
-2018/07/29-23:57:41.676 1df8 Generated table #104: 2156 keys, 1652347 bytes
-2018/07/29-23:57:41.676 1df8 Compacted 1@1 + 10@2 files => 21138579 bytes
-2018/07/29-23:57:41.703 1df8 Delete type=2 #81
-2018/07/29-23:57:41.703 1df8 Delete type=2 #82
-2018/07/29-23:57:41.704 1df8 Delete type=2 #83
-2018/07/29-23:57:41.704 1df8 Delete type=2 #84
-2018/07/29-23:57:41.704 1df8 Delete type=2 #85
-2018/07/29-23:57:41.705 1df8 Delete type=2 #86
-2018/07/29-23:57:41.705 1df8 Delete type=2 #87
-2018/07/29-23:57:41.705 1df8 Delete type=2 #88
-2018/07/29-23:57:41.705 1df8 Delete type=2 #89
-2018/07/29-23:57:41.706 1df8 Delete type=2 #90
-2018/07/29-23:57:41.706 1df8 Delete type=2 #94
-2018/07/29-23:57:41.706 1df8 compacted to: files[ 0 0 10 0 0 0 0 ]
+2018/07/30-14:48:44.969 ad4 Recovering log #107
+2018/07/30-14:48:44.971 ad4 Level-0 table #120: started
+2018/07/30-14:48:45.036 ad4 Level-0 table #120: 609854 bytes OK
+2018/07/30-14:48:45.093 ad4 Delete type=0 #107
+2018/07/30-14:48:45.093 ad4 Delete type=3 #105
+2018/07/30-14:48:49.295 6bc Compacting 1@0 + 0@1 files
+2018/07/30-14:48:49.311 6bc Generated table #122: 589 keys, 111990 bytes
+2018/07/30-14:48:49.312 6bc Compacted 1@0 + 0@1 files => 111990 bytes
+2018/07/30-14:48:49.322 6bc Delete type=2 #120
+2018/07/30-14:48:49.323 6bc compacted to: files[ 0 1 10 0 0 0 0 ]
+2018/07/30-14:48:49.896 6bc Compacting 1@1 + 10@2 files
+2018/07/30-14:48:50.065 6bc Generated table #123: 5381 keys, 2158320 bytes
+2018/07/30-14:48:50.240 6bc Generated table #124: 4949 keys, 2156735 bytes
+2018/07/30-14:48:50.373 6bc Generated table #125: 4415 keys, 2167266 bytes
+2018/07/30-14:48:50.506 6bc Generated table #126: 3383 keys, 2160065 bytes
+2018/07/30-14:48:50.613 6bc Generated table #127: 3594 keys, 2158042 bytes
+2018/07/30-14:48:50.706 6bc Generated table #128: 3567 keys, 2172333 bytes
+2018/07/30-14:48:50.795 6bc Generated table #129: 2419 keys, 2179112 bytes
+2018/07/30-14:48:50.894 6bc Generated table #130: 3407 keys, 2159073 bytes
+2018/07/30-14:48:50.961 6bc Generated table #131: 2650 keys, 2172583 bytes
+2018/07/30-14:48:51.049 6bc Generated table #132: 2151 keys, 1638028 bytes
+2018/07/30-14:48:51.049 6bc Compacted 1@1 + 10@2 files => 21121557 bytes
+2018/07/30-14:48:51.061 6bc Delete type=2 #109
+2018/07/30-14:48:51.061 6bc Delete type=2 #110
+2018/07/30-14:48:51.062 6bc Delete type=2 #111
+2018/07/30-14:48:51.062 6bc Delete type=2 #112
+2018/07/30-14:48:51.063 6bc Delete type=2 #113
+2018/07/30-14:48:51.063 6bc Delete type=2 #114
+2018/07/30-14:48:51.063 6bc Delete type=2 #115
+2018/07/30-14:48:51.064 6bc Delete type=2 #116
+2018/07/30-14:48:51.064 6bc Delete type=2 #117
+2018/07/30-14:48:51.065 6bc Delete type=2 #118
+2018/07/30-14:48:51.065 6bc Delete type=2 #122
+2018/07/30-14:48:51.065 6bc compacted to: files[ 0 0 10 0 0 0 0 ]
+2018/07/30-15:48:29.417 6bc Level-0 table #134: started
+2018/07/30-15:48:29.584 6bc Level-0 table #134: 2410079 bytes OK
+2018/07/30-15:48:29.597 6bc Delete type=2 #109
+2018/07/30-15:48:29.597 6bc Delete type=0 #121
+2018/07/30-15:49:18.516 6bc Compacting 1@0 + 0@1 files
+2018/07/30-15:49:18.557 6bc Generated table #135: 328 keys, 107974 bytes
+2018/07/30-15:49:18.557 6bc Compacted 1@0 + 0@1 files => 107974 bytes
+2018/07/30-15:49:18.567 6bc Delete type=2 #134
+2018/07/30-15:49:18.568 6bc compacted to: files[ 0 1 10 0 0 0 0 ]
+2018/07/30-15:50:09.453 6bc Compacting 1@1 + 10@2 files
+2018/07/30-15:50:09.622 6bc Generated table #136: 5382 keys, 2157565 bytes
+2018/07/30-15:50:09.795 6bc Generated table #137: 4949 keys, 2156735 bytes
+2018/07/30-15:50:09.916 6bc Generated table #138: 4415 keys, 2167266 bytes
+2018/07/30-15:50:10.050 6bc Generated table #139: 3383 keys, 2160065 bytes
+2018/07/30-15:50:10.208 6bc Generated table #140: 3594 keys, 2158042 bytes
+2018/07/30-15:50:10.341 6bc Generated table #141: 3567 keys, 2172333 bytes
+2018/07/30-15:50:10.480 6bc Generated table #142: 2419 keys, 2179112 bytes
+2018/07/30-15:50:10.603 6bc Generated table #143: 3407 keys, 2159073 bytes
+2018/07/30-15:50:10.689 6bc Generated table #144: 2650 keys, 2172583 bytes
+2018/07/30-15:50:10.803 6bc Generated table #145: 2164 keys, 1646396 bytes
+2018/07/30-15:50:10.803 6bc Compacted 1@1 + 10@2 files => 21129170 bytes
+2018/07/30-15:50:10.829 6bc Delete type=2 #123
+2018/07/30-15:50:10.829 6bc Delete type=2 #124
+2018/07/30-15:50:10.830 6bc Delete type=2 #125
+2018/07/30-15:50:10.831 6bc Delete type=2 #126
+2018/07/30-15:50:10.831 6bc Delete type=2 #127
+2018/07/30-15:50:10.832 6bc Delete type=2 #128
+2018/07/30-15:50:10.832 6bc Delete type=2 #129
+2018/07/30-15:50:10.833 6bc Delete type=2 #130
+2018/07/30-15:50:10.833 6bc Delete type=2 #131
+2018/07/30-15:50:10.834 6bc Delete type=2 #132
+2018/07/30-15:50:10.835 6bc Delete type=2 #135
+2018/07/30-15:50:10.835 6bc compacted to: files[ 0 0 10 0 0 0 0 ]

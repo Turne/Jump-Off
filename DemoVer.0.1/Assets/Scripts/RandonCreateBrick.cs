@@ -12,7 +12,7 @@ namespace MyGame
         private float down;
         private float allMoveDist = 0f;
         private static int createIndex = 0;
-        private ObjectPool gameObjectPool = new ObjectPool(5);
+        private ObjectPool gameObjectPool = new ObjectPool(10);
 
         public Transform L_Vertical;
         public Transform R_Vertical;
@@ -112,10 +112,10 @@ namespace MyGame
                 if (tranVertical_L[i] != L_Vertical && tranVertical_L[i].position.y > top + 2f)
                 {
                     tranVertical_L[i].position = new Vector3(tranVertical_L[i].position.x,
-                        tranVertical_L[i].position.y - 15f, tranVertical_L[i].position.z);
+                        tranVertical_L[i].position.y - 18f, tranVertical_L[i].position.z);
 
                     tranVertical_R[i].position = new Vector3(tranVertical_R[i].position.x,
-                        tranVertical_R[i].position.y - 15f, tranVertical_R[i].position.z);
+                        tranVertical_R[i].position.y - 18f, tranVertical_R[i].position.z);
                 }
             }
         }
